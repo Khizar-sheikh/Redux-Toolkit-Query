@@ -14,7 +14,7 @@ const App = () => {
     if (data) {
       setProducts(data);
     }
-  }, [data]); // Only run the effect if `data` changes
+  }, [data]);
 
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
@@ -26,7 +26,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<ProductList products={products} />} />
         <Route path="/products/:productId" element={<ProductDetail products={products} />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/cart" element={<Cart />} products={products} />
       </Routes>
     </Router>
   );

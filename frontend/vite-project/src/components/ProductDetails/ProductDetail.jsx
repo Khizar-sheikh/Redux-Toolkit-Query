@@ -15,7 +15,7 @@ const ProductDetail = ({ products }) => {
     }
 
     const handleAddtoCart = () => {
-        dispatch(addItem(productId));
+        dispatch(addItem(product));
     };
 
     return (
@@ -49,6 +49,7 @@ const ProductDetail = ({ products }) => {
                 </div>
             </div>
         </div>
+
     );
 };
 

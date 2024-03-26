@@ -33,15 +33,15 @@ const Cart = () => {
                         <ul className="space-y-4">
                             {cartItems.map(item => (
                                 <li key={item.id} className="flex items-center justify-between border-b border-gray-200 pb-4">
-                                    <div><img src={item.image} alt="" /></div>
+                                    <div ><img className="h-24 w-20" src={item.image} alt="" /></div>
                                     <div>
                                         <h3 className="text-lg font-semibold">{item.name}</h3>
-                                        <p className="text-sm text-gray-500">Price: ${item.price}</p>
+                                        <p className="text-sm text-gray-500">Price: PKR{item.price}</p>
                                         <p className="text-sm text-gray-500">Quantity: {item.quantity}</p>
                                     </div>
                                     <div>
-                                        <button className="text-blue-500 mr-2" onClick={() => handleIncreaseQuantity(item.id)}>+</button>
-                                        <button className="text-red-500 mr-2" onClick={() => handleDecreaseQuantity(item.id)}>-</button>
+                                        <button className="text-blue-500 mr-3 font-bold text-xl" onClick={() => handleIncreaseQuantity(item.id)}>+</button>
+                                        <button className="text-red-500 mr-3 font-bol text-xl" onClick={() => handleDecreaseQuantity(item.id)}>-</button>
                                         <button className="text-gray-500" onClick={() => handleRemoveItem(item.id)}>Remove</button>
                                     </div>
                                 </li>
@@ -50,8 +50,7 @@ const Cart = () => {
                         <div className="mt-8 flex justify-between">
                             <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600" onClick={handleClearCart}>Clear Cart</button>
                             <div>
-                                <p className="text-lg font-semibold">Total: ${total}</p>
-                                {/* Add checkout button or additional options here */}
+                                <p className="text-lg font-semibold">Total: ${total.toFixed(2)}</p>
                             </div>
                         </div>
                     </>
