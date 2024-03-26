@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "description": "Powerful laptop for work and entertainment.",
+    "price": 999.99,
+    "specs": {
+      "processor": "Intel Core i7",
+      "RAM": "16GB DDR4",
+      "storage": "512GB SSD",
+      "graphics": "NVIDIA GeForce RTX 3070"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "description": "High-performance smartphone with cutting-edge features.",
+    "price": 799.99,
+    "specs": {
+      "display": "6.5-inch AMOLED",
+      "processor": "Snapdragon 888",
+      "RAM": "8GB LPDDR5",
+      "storage": "256GB UFS 3.1"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "description": "Wireless headphones with noise-cancelling technology.",
+    "price": 199.99,
+    "specs": {
+      "type": "Over-ear",
+      "wireless": true,
+      "noiseCancellation": true,
+      "batteryLife": "Up to 30 hours"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 4,
+    "name": "Tablet",
+    "description": "Versatile tablet for productivity and entertainment.",
+    "price": 499.99,
+    "image": "https://via.placeholder.com/400x300",
+    "specs": {
+      "display": "10.2-inch Retina",
+      "processor": "A14 Bionic",
+      "RAM": "4GB",
+      "storage": "128GB"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Smartwatch",
+    "description": "Feature-packed smartwatch for active lifestyles.",
+    "price": 299.99,
+    "specs": {
+      "display": "1.4-inch AMOLED",
+      "sensors": "Heart rate, GPS, Accelerometer",
+      "waterResistance": "Up to 50 meters",
+      "batteryLife": "Up to 7 days"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 6,
+    "name": "Desktop Computer",
+    "description": "High-performance desktop for gaming and professional use.",
+    "price": 1499.99,
+    "specs": {
+      "processor": "AMD Ryzen 9",
+      "RAM": "32GB DDR4",
+      "storage": "1TB SSD + 2TB HDD",
+      "graphics": "NVIDIA GeForce RTX 3080"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 7,
+    "name": "Camera",
+    "description": "Professional-grade camera for photography and videography.",
+    "price": 1999.99,
+    "specs": {
+      "sensor": "Full-frame CMOS",
+      "resolution": "30.4 megapixels",
+      "video": "4K at 30fps",
+      "lensMount": "Canon EF"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 8,
+    "name": "Gaming Console",
+    "description": "Next-gen gaming console for immersive gaming experiences.",
+    "price": 499.99,
+    "specs": {
+      "processor": "Custom AMD Ryzen",
+      "GPU": "AMD RDNA 2",
+      "RAM": "16GB GDDR6",
+      "storage": "1TB SSD",
+      "resolution": "Up to 4K"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 9,
+    "name": "Wireless Router",
+    "description": "High-speed wireless router for seamless internet connectivity.",
+    "price": 129.99,
+    "specs": {
+      "WiFiStandard": "802.11ax (Wi-Fi 6)",
+      "speed": "Up to 6000 Mbps",
+      "coverage": "Up to 3000 sq. ft.",
+      "ports": "4x Gigabit Ethernet"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 10,
+    "name": "Fitness Tracker",
+    "description": "Activity tracker with heart rate monitoring and fitness tracking features.",
+    "price": 79.99,
+    "specs": {
+      "display": "1.3-inch OLED",
+      "sensors": "Heart rate, Accelerometer",
+      "waterResistance": "Up to 50 meters",
+      "batteryLife": "Up to 10 days"
+    },
+    "image": "https://via.placeholder.com/400x300"
+  }
+]
